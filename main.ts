@@ -1,3 +1,22 @@
+/**
+ * Lists:
+ * 
+ * Letters to guess from
+ * 
+ * Words
+ * 
+ * Letters guessed
+ * 
+ * Letters of the word
+ */
+function getInput () {
+    letter = game.askForString(game.ask("Choose a letter"), 1)
+    if (0 == 0) {
+    	
+    }
+}
+let letter = ""
+let numberOfMisses = 0
 scene.setBackgroundImage(img`
     1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
     1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
@@ -138,3 +157,6 @@ let mySprite = sprites.create(img`
     . . . . . f . . . f . . . . . . 
     . . . . f . . . . . f . . . . . 
     `, SpriteKind.Player)
+if (false) {
+    numberOfMisses = 0
+}
